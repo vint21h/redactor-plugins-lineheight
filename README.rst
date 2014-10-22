@@ -10,7 +10,7 @@ A redactor-plugins-lineheight documentation
 
 Installation
 ------------
-* Obtain your copy of source code from git repository: ``git clone https://github.com/vint21h/redactor-plugins-lineheight.git``. Or download latest release from https://github.com/vint21h/redactor-plugins-lineheight/tags.
+* Obtain your copy of source code from git repository: ``git clone https://github.com/vint21h/redactor-plugins-lineheight.git``. Or download latest release from ``https://github.com/vint21h/redactor-plugins-lineheight/tags``.
 * Add ``Font Awesome`` css file and ``redactor-plugins-lineheight`` js file to your page.
 * Add ``lineheight`` plugin to redactor options plugins list.
 * For more complete info see ``http://imperavi.com/redactor/docs/``.
