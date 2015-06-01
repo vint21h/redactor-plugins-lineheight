@@ -14,28 +14,28 @@ RedactorPlugins.lineheight = function()
 
             $.each(heights, function(i, s)
             {
-                dropdown['s' + i] = {
-                    title: s + 'em', func: function() {
+                dropdown["s" + i] = {
+                    title: s + "em", func: function() {
                         that.lineheight.set(s);
                     }
                 };
             });
 
             dropdown.remove = {
-                title: 'Remove Line Height',
+                title: "Remove Line Height",
                 func: that.lineheight.reset
             };
-            var button = this.button.add('lineheight', 'Change Line Height');
-            this.button.setAwesome('lineheight', 'fa-arrows-v');
+            var button = this.button.add("lineheight", "Change Line Height");
+            this.button.setAwesome("lineheight", "fa-arrows-v");
             this.button.addDropdown(button, dropdown);
         },
         set: function(height)
         {
-            this.inline.format('span', 'style', 'line-height: ' + height + 'em;');
+            this.inline.format("span", "style", "line-height: " + height + "em;");
         },
         reset: function()
         {
-            this.inline.removeStyleRule('line-height');
+            this.inline.removeStyleRule("line-height");
         }
     };
 };

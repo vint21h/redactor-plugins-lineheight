@@ -15,7 +15,6 @@ Installation
 * Add ``lineheight`` plugin to redactor options plugins list.
 * For more complete info see ``http://imperavi.com/redactor/docs/``.
 
-
 Licensing
 ---------
 redactor-plugins-lineheight uses the MIT license. Please check the MIT-LICENSE file for more details.
@@ -25,3 +24,5 @@ Contacts
 **Project website**: https://github.com/vint21h/redactor-plugins-lineheight
 
 **Author**: Alexei Andrushievich <vint21h@vint21h.pp.ua>
+
+For other authors list see AUTHORS file.
