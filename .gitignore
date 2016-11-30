@@ -19,3 +19,4 @@ parts
 .pydevproject
 .settings/*
 *.pid
+*.html
