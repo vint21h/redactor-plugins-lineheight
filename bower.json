@@ -1,6 +1,6 @@
 {
   "name": "redactor-plugins-lineheight",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "redactor-plugins-lineheight is a plugin for Redactor (http://imperavi.com/redactor/) to set selected text line height.",
   "main": "lineheight.js",
   "moduleType": [
@@ -15,6 +15,11 @@
   "authors": [
     "Alexei Andrushievich <vint21h@vint21h.pp.ua>"
   ],
+  "dependencies": {
+    "jQuery": "3.2.1",
+    "bower-redactor": "10.2.6",
+    "fontawesome": "4.7.0"
+  },
   "license": "MIT",
   "homepage": "https://github.com/vint21h/redactor-plugins-lineheight/",
   "ignore": [
